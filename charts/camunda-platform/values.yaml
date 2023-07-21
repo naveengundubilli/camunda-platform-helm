@@ -46,7 +46,7 @@ global:
   # Ingress configuration to configure the ingress resource
   ingress:
     # Ingress.enabled if true, an ingress resource is deployed. Only useful if an ingress controller is available, like Ingress-NGINX.
-    enabled: false
+    enabled: true
     # Ingress.className defines the class or configuration of ingress which should be used by the controller
     className: nginx
     # Ingress.annotations defines the ingress related annotations, consumed mostly by the ingress controller
